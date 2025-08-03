@@ -1,8 +1,0 @@
-com/personal/app/Main.class
-com/personal/app/helper/HibernateHelper.class
-com/personal/app/models/repositories/ExpenseRepositoryImpl.class
-com/personal/app/service/ExpenseService.class
-com/personal/app/models/entities/Expense.class
-com/personal/app/models/repositories/GenericRepository.class
-com/personal/app/models/repositories/ExpenseRepository.class
-com/personal/app/controller/ExpenseController.class

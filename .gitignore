@@ -1,0 +1,10 @@
+# Maven target directory
+target/
+
+# IDE settings (esempio per IntelliJ e VSCode)
+.idea/
+*.iml
+.vscode/
+
+# macOS specific files
+.DS_Store

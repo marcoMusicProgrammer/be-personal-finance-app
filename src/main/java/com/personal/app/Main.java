@@ -2,8 +2,6 @@ package com.personal.app;
 
 import java.security.InvalidParameterException;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 import com.personal.app.controller.ControllerManager;
