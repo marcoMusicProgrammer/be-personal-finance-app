@@ -23,4 +23,5 @@ public class IncomeControllerImpl implements GenericController<Income> {
 		return service.getIncomes();
 	}
     
+	
 }

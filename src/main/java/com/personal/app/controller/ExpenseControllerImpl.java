@@ -5,6 +5,9 @@ import java.util.List;
 import com.personal.app.models.entities.Expense;
 import com.personal.app.service.ExpenseService;
 
+import jakarta.servlet.annotation.WebServlet;
+
+@WebServlet(name="expenses",value="/expenses")
 public class ExpenseControllerImpl implements GenericController<Expense> {
 
     private ExpenseService service;
@@ -21,6 +24,5 @@ public class ExpenseControllerImpl implements GenericController<Expense> {
     @Override
     public List<Expense> getList() {
         return service.getExpenses();
-        
     }
 }
