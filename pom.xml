@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.personal.app</groupId>
-  <artifactId>expense-app</artifactId>
+  <artifactId>financial-app</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -16,6 +16,13 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version> <!-- Compatibile con Tomcat 9 -->
+      <scope>provided</scope>
+    </dependency>
+
     <!-- JUnit 5 -->
     <dependency>
         <groupId>org.junit.jupiter</groupId>

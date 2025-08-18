@@ -8,8 +8,8 @@
 <body>
 <div class="container mt-4">
     <h1 class="text-primary">Seleziona Tipo</h1>
-<a href="<%= request.getContextPath() %>/prova?type=income" ...>Income</a>
-<a href="<%= request.getContextPath() %>/prova?type=expense" ...>Expense</a>
+<a href="app?type=income" ...>Income</a>
+<a href="app?type=expense" ...>Expense</a>
 
 
 </div>
