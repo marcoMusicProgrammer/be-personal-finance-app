@@ -5,17 +5,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Income List</title>
+    <title>Expense List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container mt-4">
     <h1>Expense List</h1>
     <form action="app" method="post" class="mb-3">
-        <input type="hidden" name="type" value="income"/>
+        <input type="hidden" name="type" value="expense"/>
         <input type="number" step="0.01" name="amount" placeholder="Amount" required/>
         <input type="text" name="description" placeholder="Description" required/>
-        <button type="submit" class="btn btn-primary">Add Income</button>
+        <button type="submit" class="btn btn-primary">Add Expense</button>
     </form>
 
     <table class="table table-bordered">

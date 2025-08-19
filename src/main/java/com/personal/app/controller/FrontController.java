@@ -31,10 +31,17 @@ public class FrontController extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        
         String type = request.getParameter("type");
+        System.out.println(type);
         RequestHandler<?> handler = HandlerRegistry.getHandler(type);
 
-        addEntity(handler, request);
+        try {
+            addEntity(handler, request);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new ServletException(e);
+        }
     }
 
     private <T> void addEntity(RequestHandler<T> handler, HttpServletRequest request) {
